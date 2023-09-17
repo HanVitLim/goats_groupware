@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+/* 일요일 날짜: 빨간색 */
+.fc-day-sun a {
+  color: red;
+}
+
+/* 토요일 날짜: 파란색 */
+.fc-day-sat a {
+  color: rgb(80, 170, 197);
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: rgb(218, 28, 28);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.fc-daygrid-event {
+  z-index: auto !important;
+  /* overflow: visible !important; */
+}
+
+.fc-sticky {
+  color: rgb(231, 236, 232);
+}
+
+.table tr td {
+  border: 1 solid black;
+}
+/* 직접 스타일링 */
+.event-details {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.event-detail-item {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.event-detail-value {
+  font-weight: normal;
+}
