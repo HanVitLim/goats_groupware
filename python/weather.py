@@ -10,7 +10,7 @@ CORS(app)
 
 @app.route('/weather', methods=['GET'])
 def weather():
-    apikey = "474d59dd890c4108f62f192e0c6fce01"
+    apikey = ""
 
     cities = ["Seoul,KR"]
     api = "http://api.openweathermap.org/data/2.5/weather?q={city}&APPID={key}&units=metric"
